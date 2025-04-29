@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(0, 204, 255);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.icon {
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.summary {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    border: 6px solid aquamarine;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.total div {
+    width: 200px;
+}
+
+.expenses {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+    border: 6px solid aqua;
+    box-sizing: content-box;
+    box-shadow: 0 4px 8px 0 rgba(13, 12, 12, 0.2);
+    min-height: 30vh;
+}
+
+.vertical {
+    margin: 0.5%;
+    border-width: 2px;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 50vw;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+#table th,
+#table td {
+    text-align: left;
+    padding: 12px;
+}
+
+#table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#table tr.titles {
+    background-color: #cce5ff; 
+}
+
+.inputItem {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: large;
+    padding: 1%;
+}
+
+input,
+select,
+option {
+    padding: 2%;
+    border-radius: 5px;
+    margin: 2%;
+   
+}
+
+button {
+    font-size: large;
+    border-radius: 5px;
+    padding: 1%;
+    color: blueviolet;
+}
+button:hover {
+    cursor: pointer;
+}

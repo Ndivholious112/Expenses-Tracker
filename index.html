@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker App</title>
+    <script src="./js/main.js" type="module" defer=""></script>
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <i class="bi bi-wallet icon"></i>
+        <h1 class="title">Budget Buddy</h1>
+    </div>
+
+    <div class="summary">
+        <div>
+            <h1> Balance:
+                <span id="updatedBalance">
+                    0
+                </span>
+            </h1>
+        </div>
+        <br />
+        <div class="total">
+            <div>
+                Total Income:
+                <div>
+                    <h2 style="color: green;" id="updatedIncome">
+                        0
+                    </h2>
+                </div>
+            </div>
+            <hr class="verticle" />
+            <div>
+                Total Expenses:
+                <div>
+                    <h2 style="color: red;" id="updatedExp">
+                        0
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="expenses">
+        <div id="items">
+            <h2 style="color: blueviolet;">Expenses</h2>
+            <table id="table">
+                <tr class="titles">
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Type</th>
+                    <th><i class="bi bi-trash3"></i></th>
+                </tr>
+            </table>
+        </div>
+        <hr class="vertical" />
+        <div id="addNew">
+            <h2 style="color: blueviolet;">Add new Transaction</h2>
+
+            <div class="inputs">
+                <div class="inputItem">
+                    <p>
+                        Entry type:
+                    </p>
+                    <select id='itemType'>
+                        <option value="0">Expense</option>
+                        <option value="1">Income</option>
+                    </select>
+                </div>
+                <div class="inputItem">
+                    <p>Name:</p>
+                    <input id="name" type="text" value="" placeholder="Transaction Name" />
+                </div>
+                <div class="inputItem">
+                    <p>Amount:</p>
+                    <input value="0" id="amount" name="mod" type="number" placeholder="Amount" />
+                </div>
+            </div>
+            <button onclick="addItem()">
+                Submit
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
