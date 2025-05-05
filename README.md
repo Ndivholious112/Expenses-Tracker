@@ -12,9 +12,9 @@ A simple, stylish **web-based Expenses Tracker** to help you **record**, **track
 ## 🗂️ Project Structure
 
 ```
-
+```
 Expenses-Tracker/
-├── **test**/               # 🧪 Test files
+├── __test__/               # 🧪 Test files
 │   └── expenses.test.js
 ├── css/                    # 🎨 Stylesheets
 │   └── styles.css
@@ -24,7 +24,7 @@ Expenses-Tracker/
 ├── index.html              # 🏠 Main HTML file
 ├── package.json            # 📦 Node.js dependencies & scripts
 └── README.md               # 📝 Project documentation
-
+```
 ````
 
 ---
@@ -130,15 +130,5 @@ If you like this project, please ⭐️ **star** the repository — it helps oth
 
 📧 Maintainer: **Ndivho Confidence Nemutshili**
 GitHub: [@Ndivholious112](https://github.com/Ndivholious112)
-
----
-
-## 🏅 Badges (optional)
-
-![GitHub Repo stars](https://img.shields.io/github/stars/Ndivholious112/Expenses-Tracker?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Ndivholious112/Expenses-Tracker?style=social)
-![GitHub license](https://img.shields.io/github/license/Ndivholious112/Expenses-Tracker)
-
-```
 
 ---
