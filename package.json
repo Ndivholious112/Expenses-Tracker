@@ -1,17 +1,24 @@
 {
-  "name": "expense-tracker",
+  "name": "expenses-tracker",
   "version": "1.0.0",
+  "description": "---",
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ndivholious112/Expenses-Tracker.git"
   },
   "keywords": [],
   "author": "",
   "type": "module",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/Ndivholious112/Expenses-Tracker/issues"
+  },
+  "homepage": "https://github.com/Ndivholious112/Expenses-Tracker#readme",
   "devDependencies": {
-    "jest": "^29.7.0",
-    "nodemon": "^3.1.9"
+    "jest": "^29.7.0"
   }
 }
