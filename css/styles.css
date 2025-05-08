@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: rgb(0, 204, 255);
+    background-color: powderblue;
 }
 
 .header {
@@ -53,7 +53,7 @@ body {
 }
 
 .expenses {
-    background-color: white;
+    background-color: whitesmoke;
     display: flex;
     margin: auto;
     padding: 2%;
